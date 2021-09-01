@@ -15,9 +15,16 @@ const client = new Discord.Client()
 const Database = require("st.db")
 const db = new Database("Setting")
 const ms = require("ms")
+
 ////////////////////////////
 const prefix = "Your Prefix"
 ////////////////////////////
+
+client.on("ready", () =>{
+console.log(`${client.user.username} is online`)
+client.user.setActivity(`${prefix}help`, {type:"PLAYING"})
+})
+
 client.on("message", message =>{
 if(message.content === prefix + "help"){
 const ch = db.fetch("channel")
