@@ -15,7 +15,7 @@ const prefix = "Your Prefix"
 ```
 * Go To Shell And Type This 
 ```
-npm i discord.js@12.5.3 express
+npm i discord.js@12.5.3 express ms st.db
 ``` 
 * Watting to Install All Packages And Click To Run Button
 
