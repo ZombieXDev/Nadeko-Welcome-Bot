@@ -6,12 +6,12 @@
 * Type This
 ```
 Key : token
-value : <your-token>
+value : <MTEzODkyMzU5OTc0MzQxODQ1OQ.GSyDli.cAmdRANBYp-yvGGd-IUdUMDvHwrpHYhiSEZs60>
 ```
 
 * and Go to `index.js`
 ```
-const prefix = "Your Prefix" 
+const prefix = "&" 
 ```
 * Go To Shell And Type This 
 ```
